@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive CSS challenge demonstrating Flexbox, CSS Grid, and subtle CSS animation.">
+  <title>CSS Challenge | Layout & Animation Showcase</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">CSS Challenge</a>
+      <nav aria-label="Main navigation">
+        <a href="#flexbox">Flexbox</a>
+        <a href="#grid">Grid</a>
+        <a href="#animation">Animation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Week 1 • Task 3</p>
+        <h1>CSS Layout &amp; Animation Showcase</h1>
+        <p class="hero-text">
+          A simple responsive demonstration of Flexbox, CSS Grid, and subtle CSS animation techniques.
+        </p>
+      </div>
+    </section>
+
+    <section class="challenge-section" id="flexbox">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 • Flexbox</p>
+          <h2>Responsive Feature Cards</h2>
+          <p>Three flexible cards arranged in a row on desktop and stacked on smaller screens.</p>
+        </div>
+
+        <div class="flex-container">
+          <article class="feature-card">
+            <div class="card-number">01</div>
+            <h3>Responsive Layout</h3>
+            <p>Flexible card widths and responsive breakpoints create a layout that adapts cleanly to different screen sizes.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="card-number">02</div>
+            <h3>Clean Alignment</h3>
+            <p>Flexbox properties such as gap, align-items, and justify-content keep the cards balanced and consistent.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="card-number">03</div>
+            <h3>Interactive Hover</h3>
+            <p>A subtle lift effect provides clear interaction feedback without distracting from the content.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="challenge-section section-muted" id="grid">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 • CSS Grid</p>
+          <h2>CSS Technology Grid</h2>
+          <p>Six responsive grid items demonstrate columns, spacing, alignment, and rearrangement.</p>
+        </div>
+
+        <div class="grid-container">
+          <article class="grid-card"><span>01</span><h3>HTML5</h3><p>Semantic structure</p></article>
+          <article class="grid-card"><span>02</span><h3>CSS3</h3><p>Modern styling</p></article>
+          <article class="grid-card"><span>03</span><h3>Flexbox</h3><p>One-dimensional layout</p></article>
+          <article class="grid-card"><span>04</span><h3>Grid</h3><p>Two-dimensional layout</p></article>
+          <article class="grid-card"><span>05</span><h3>Responsive</h3><p>Multi-device design</p></article>
+          <article class="grid-card"><span>06</span><h3>Animation</h3><p>Subtle interaction</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="challenge-section" id="animation">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 • Animation</p>
+          <h2>Simple CSS Interaction</h2>
+          <p>A professional card-lift and button transition using CSS transition and transform.</p>
+        </div>
+
+        <div class="animation-demo">
+          <div class="animation-card">
+            <div class="animation-icon" aria-hidden="true">↗</div>
+            <div>
+              <p class="demo-label">Hover interaction</p>
+              <h3>Explore CSS</h3>
+              <p>Move your cursor over this card and button to see a smooth, subtle transition.</p>
+              <a class="animation-button" href="#flexbox">Explore Layouts <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Swatismita Parija. CSS Challenge.</p>
+      <p>Built with HTML5 &amp; CSS3.</p>
+    </div>
+  </footer>
+</body>
+</html>
